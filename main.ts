@@ -1,19 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showLeds(`
-        # . # . #
-        # . # . .
-        # # # . #
-        # . # . #
-        # . # . #
-        `)
+    music.playMelody("C5 B A B G B G C ", 500)
 })
-input.onButtonPressed(Button.B, function () {
-    basic.showLeds(`
-        # # # . #
-        # . # . #
-        # # . # #
-        # . # . #
-        # # . . #
-        `)
-})
-basic.showIcon(IconNames.Yes)
+music.playMelody("C5 B A B G B G C ", 500)
+basic.showString(" press A <--")

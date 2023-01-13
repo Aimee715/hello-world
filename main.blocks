@@ -1,13 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="6(Bhr~^f]V-ONKY,nV@I" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="21`|])$LmN7#0gKHZku0"><field name="i">IconNames.Yes</field></block></statement></block><block type="device_button_event" id=";H6f,EN#V)8CUjO@37:c" x="297" y="25"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="T:^nZ3uj_Y6B[%b^4Ewv"><field name="LEDS">`
-        # . # . # 
-        # . # . . 
-        # # # . # 
-        # . # . # 
-        # . # . #
-        `</field></block></statement></block><block type="device_button_event" id="AE,n%-`iO4,bfiDlK@~$" x="599" y="31"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="BN~1@qAr%3*/I)+Xi-jE"><field name="LEDS">`
-        # # # . # 
-        # . # . # 
-        # # . # # 
-        # . # . # 
-        # # . . #
-        `</field></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="a!SbDS#`pyHA2e;h[bXi" x="542" y="30"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="playMelody" id="|PL%PDj*t_ZyUYmTGfJ}"><value name="melody"><shadow type="melody_editor" id="eb;oMPUQra=!uwn8^C2^"><field name="melody">"C5 B A B G B G C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="od{rK/DJSoW@FU;`E)%W"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">500</field></shadow></value></block></statement></block><block type="pxt-on-start" id="6(Bhr~^f]V-ONKY,nV@I" x="70" y="60"><statement name="HANDLER"><block type="playMelody" id="]!H:bl;kyr,B#UI5BV6."><value name="melody"><shadow type="melody_editor" id="elVv8AhI6kj[qTf1`wxi"><field name="melody">"C5 B A B G B G C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="my/aN}8_m5A9jul!A0Gg"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">500</field></shadow></value><next><block type="device_print_message" id="1Vhr:nZIaerSh%9ek?vu"><value name="text"><shadow type="text" id="x4o^-GFx)J:0SqIs;Yy!"><field name="TEXT"> press A &lt;--</field></shadow></value></block></next></block></statement></block></xml>
